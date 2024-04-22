@@ -1,0 +1,61 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  color: #4a54f1;
+  text-align: center;
+}
+
+input[type="number"] {
+  padding: 8px;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4a54f1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3e45cc;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+img {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+div {
+  margin-top: 20px;
+}
